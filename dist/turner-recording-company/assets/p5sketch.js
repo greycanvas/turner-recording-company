@@ -1,23 +1,24 @@
-let y = 100;
-let x = 0;
-let red = 0;
-let blue = 0;
-let green = 0;
 
-let width = 720;
-let height = 400;
+let szMult = 3.5;
+let rec1 = -60;
 
 function setup() {
-  createCanvas(width, height); 
-  stroke(255); 
+  background(0); 
+  createCanvas(1000, 400); 
+  stroke(200); 
   frameRate(30);
+  smooth();
 }
 
 function draw() {
-  background(red,blue,green); 
-  y = y - 1;
-  if (y < 0) {
-    y = height;
-  }
-  line(x, y, width, y);
+  translate(frameCount*2,200);
+  rotate(radians(frameCount*3));
+  sclSize = sin(radians(frameCount * szMult));
+  scale(map(sclSize,-1,1,0.5,1));
+  drawFigure();
+}
+function drawFigure(){
+  noFill();
+  stroke(5,5,0,88);
+  rect(rec1, -40, 120, 80);
 }
