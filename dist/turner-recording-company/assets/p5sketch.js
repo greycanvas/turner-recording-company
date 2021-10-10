@@ -1,14 +1,23 @@
-
 let szMult = 3.5;
 let rec1 = -60;
-
 function setup() {
-  background(0); 
-  createCanvas(1000, 400); 
-  stroke(200); 
-  frameRate(30);
-  smooth();
+
+  createCanvas(2000, 900);
+  noStroke();
+
+  let co = color(199,172,115);
+  let cl = color(46,106,148);
+  let numSteps = 2000;
+  
+  for (let i=0;i<numSteps;i++){
+    let a = i/(numSteps-1.0);
+    
+    colorMode(RGB);
+    fill(lerpColor(co,cl,a));
+    rect(0+i,0,1,450);
+  }
 }
+
 
 function draw() {
   translate(frameCount*2,200);
