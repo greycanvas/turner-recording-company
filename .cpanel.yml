@@ -2,4 +2,4 @@
 deployment:
   tasks: 
     - export DEPLOYPATH=/home/d989q4p9z4et/public_html/
-    - /bin/cp -R publish/ $DEPLOYPATH
+    - /bin/cp -R public_html/ $DEPLOYPATH
