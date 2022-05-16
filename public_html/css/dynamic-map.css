@@ -1,0 +1,50 @@
+.login{
+    display:flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin:10px;
+}
+.login button{width:50px;margin:5px 0;}
+.structureContainer{display:none;}
+.structureLayoutContainer{display:flex;flex-direction: row;}
+.structureLayoutContainer ul{margin-bottom:70px;}
+ul#compositionNav li,ul#structureEdit li,ul#instrEdit li,ul#chordEdit li{display:inline;}
+ul#instrEdit,ul#chordEdit{margin:5px 0;padding:0;}
+#structureLayout{margin:0 10px;display: flex;align-items: flex-end;max-width: 1800px;flex-wrap: wrap;}
+#structureLayout div{display: flex; flex-direction:column;padding: 5px;border: 1px dashed #ababab;margin: 0 2px;}
+#structureLayout .map-titles{background-color: #ddd;border: 1px #a59c9c solid;margin-bottom: 5px;}
+#structureLayout .instr-container{margin:0 2px 10px;}
+#structureLayout .instr-container div{cursor:pointer;}
+.containerStructureLayout,.containerSong{display:none;}
+
+.arrangementContainer{display:flex;flex-direction: column;margin:0 0 50px 20px;}
+#chordProgression{min-width: 200px; min-height: 100px;border: 1px #ccc solid;font-size:10px;}
+
+#structureSketch{
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    margin:0 0 10px;
+    width:1000px;
+}
+#structureSketch canvas{
+    margin: 0px auto;
+}
+.parametric-eq{
+    display:flex;
+    flex-direction:row;
+    justify-content:left;
+    width:1000px;
+    background-color: #627378;
+    color: #9ea7ad;
+}
+.parametric-eq .hz:not(:last-child){
+    border-right:1px #a6aeb3 solid;
+}
+.parametric-eq .hz{
+    padding: 5px 10px;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+}
+.playaudio{padding:10px 0;}

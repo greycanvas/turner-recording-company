@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Dongle-Light';
+    src: url('/public_html/lib/fonts/Dongle-Light.ttf')  format('truetype');
+}
+@font-face {
+    font-family: 'LoveLight-Regular';
+    src: url('/public_html/lib/fonts/LoveLight-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'MetalsmithRegular';
+  src: url('/public_html/lib/fonts/MetalsmithRegular-x3yMq.ttf')  format('truetype');
+}
+
+body{margin:0;}
+body,a{font-size:11px;font-family:Dongle,Arial, Helvetica, sans-serif;color:#777777;text-decoration: none;}
+header{padding:5px;border-bottom:1px #bfbfbf solid;background-color:#e1e1e1;-webkit-box-shadow: 5px 3px 11px 1px rgba(0,0,0,0.17); 
+  box-shadow: 5px 3px 11px 1px rgba(0,0,0,0.17);}
+header a:hover{color:#1c1b1b;text-decoration: none;}
+body .title-home{display: flex;justify-content: center;padding: 10px;color:#505855;font-size:42px;font-family:MetalsmithRegular,Arial, Helvetica, sans-serif;-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;font-weight:100;}
+footer a:hover{color:#d9d9d9;text-decoration: none;}
+header ul li,footer ul li{display:inline;padding:0 10px;}
+header ul,footer ul {padding:0;}
+footer{display:flex;justify-content:center;background-color:#363a3c;position:fixed;bottom:0;padding:10px;width:100%;}
+input[type=text],input[type=password],select,textarea{border:1px #ccc solid;margin:5px 0;outline: none;padding:3px;min-width:200px; font-family: arial;color: #837676;}
+input:disabled {background-color: #e3e7e6;color: #7b938e;}
+button{border: 1px #c1c1c1 solid;
+cursor:pointer;
+min-width: 150px;
+padding: 5px;
+background: rgb(205,211,212);
+background: linear-gradient(0deg, rgb(213 211 211) 0%, rgb(215 215 215) 16%, rgb(233 233 233) 100%);
+color: #363636;
+font-weight: 100;
+border-radius: 2px;}
+ul li{list-style: none;}
+
+main{display:flex;justify-content:space-evenly;margin:10px 0 0;}
