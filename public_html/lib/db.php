@@ -1,7 +1,7 @@
 <?php
     $server = "localhost";
-    $user = "root";
-    $password = "sixletters";
+    $user = "sixletters";
+    $password = "turner1970";
 
     $db = new mysqli($server, $user, $password,"turner-record-company");
 
