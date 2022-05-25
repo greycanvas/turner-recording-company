@@ -3,7 +3,18 @@
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
+
+   // define('PRODUCTION', true);
+    if($_SERVER['HTTP_HOST'] != 'local.turner-recording-company.com'){
+        define('PRODUCTION', false);
+    } else{
+        define('PRODUCTION', true);
+    }
 ?>
+<script>
+    let screenwidth=screen.width;
+    let screenheight=screen.height;
+</script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="js/dynamic-map.js"></script>
 <script src="lib/p5.min.js"></script>
