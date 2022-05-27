@@ -16,11 +16,10 @@ function setup() {
 }
 
 function draw() {
-  
   x1++;
   x2++;
   normalMaterial();
-  for (let i = 0; i < 500; i++) {
+ // for (let i = 0; i < 10; i++) {
     if((x1 % 3 == 0 )){
       r2 = random(-0, 1);
       rV = random(-0, .5);
@@ -33,7 +32,7 @@ function draw() {
       rHb = (-200+random(-0, 1));
       tint2 = random(180, 195);
 
-    }
+   // }
   }
 
   camera(2 + sin(frameCount * 0.22), 1 + sin(frameCount * 0.01), 520 + sin(frameCount * 0.01) * 2, 0, 0, 0, 0, 1, 0);
@@ -51,5 +50,4 @@ function draw() {
   tint(0, 53, 204, tint1);
   plane(350,233);
   pop();
-
 }
