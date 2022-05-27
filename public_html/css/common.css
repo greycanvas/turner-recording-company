@@ -12,7 +12,7 @@
 }
 
 body{margin:0;}
-main{background-color:#dfdfdf;}
+main{background-color:#dfdfdf;display:flex;justify-content:space-evenly;margin:0;overflow-x: hidden;}
 body,a{font-size:11px;font-family:Dongle,Arial, Helvetica, sans-serif;color:#777777;text-decoration: none;}
 header{padding:5px;border-bottom:1px #bfbfbf solid;background-color:#ffffff;-webkit-box-shadow: 5px 3px 11px 1px rgba(0,0,0,0.17); 
   box-shadow: 5px 3px 11px 1px rgba(0,0,0,0.17);}
@@ -35,5 +35,3 @@ color: #363636;
 font-weight: 100;
 border-radius: 2px;}
 ul li{list-style: none;}
-
-main{display:flex;justify-content:space-evenly;margin:10px 0 0;}
