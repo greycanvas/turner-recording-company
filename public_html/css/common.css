@@ -21,7 +21,7 @@ body .title-home{display: flex;justify-content: center;padding: 10px;color:#5058
   -moz-osx-font-smoothing: grayscale;font-weight:100;}
 footer a:hover{color:#d9d9d9;text-decoration: none;}
 header ul li,footer ul li{display:inline;padding:0 10px;}
-header ul,footer ul {padding:0;}
+header ul,footer ul {padding:0;margin:2px 0;}
 footer{display:flex;justify-content:center;background-color:#363a3c;position:fixed;bottom:0;padding:10px;width:100%;}
 input[type=text],input[type=password],select,textarea{border:1px #ccc solid;margin:5px 0;outline: none;padding:3px;min-width:200px; font-family: arial;color: #837676;}
 input:disabled {background-color: #e3e7e6;color: #7b938e;}
