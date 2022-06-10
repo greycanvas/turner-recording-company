@@ -25,12 +25,12 @@ function draw() {
 
   normalMaterial();
 
-  if((x1 % 3 == 0 )){
+  /*if((x1 % 3 == 0 )){
     r2 = random(-0, 1);
     rV = random(-0, .5);
     rH = (-200 + random(-0, 1));
     tint1 = random(210, 225);
-  }
+  }*/
   if((x2 % 7 == 0 )){
     r2b = random(-0, 1);
     rVb = random(-0, .5);
@@ -46,11 +46,5 @@ function draw() {
   tint(0, 153, 204, tint2);
   plane(350,233);
   pop();
-/*
-  translate(rV , rH, 0);
-  push();
-  texture(img);
-  tint(0, 53, 204, tint1);
-  plane(350,233);
-  pop();*/
+
 }
