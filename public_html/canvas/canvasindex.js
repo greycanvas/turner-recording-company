@@ -39,7 +39,6 @@ function draw() {
   }
 
   //camera(2 + sin(frameCount * 0.22), 1 + sin(frameCount * 0.01), 520 + sin(frameCount * 0.01) * 2, 0, 0, 0, 0, 1, 0);
-
   //translate(rVb , rHb, 0);
   push();
   texture(img1);
