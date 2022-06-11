@@ -43,7 +43,7 @@ function draw() {
   translate(rVb , rHb, 0);
   push();
   texture(img1);
-  tint(0, 153, 204, tint2);
+  //tint(0, 153, 204, tint2);
   plane(350,233);
   pop();
 
