@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Turner Recording Company</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 <?php
     include("common.php");
 ?>

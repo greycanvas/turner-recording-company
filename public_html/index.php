@@ -28,6 +28,7 @@
             },
             complete:function(){
                 showCanvas();
+                $("#progress").hide();
             }
         });
         function downloadTime(){
