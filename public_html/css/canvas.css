@@ -17,20 +17,43 @@ body{
     width:25%;
     margin:10% 0;
 }
-#canvas container div{
+#canvas container.address{
+    flex-direction: column;
+    width: 15%;
+    padding: 0 0 0 10%;
+}
+#canvas container.address .guitarimg{
+    display:none;
+    transition: 5s;
+}
+#canvas container.address .guitarimg img{
+    width:50%;
+    border:1px #8b8b8b solid;
+    filter: grayscale(44%) sepia(42%) brightness(95%) saturate(151%);
+    -webkit-filter: grayscale(44%) sepia(42%) brightness(95%) saturate(151%);
+    -moz-filter: grayscale(44%) sepia(42%) brightness(95%) saturate(151%);
+}
+#canvas container div.canvas-link{
     border:1px #fff solid;
     width: 25%;
     height: 100px;
     opacity: 0.5;
 }
-#canvas container div:hover{
+#canvas container div.canvas-link:hover{
     cursor: pointer;
     background-color:#fff;
     opacity: 0.8;
     transition: 2s;
 }
+#canvas container div.canvas-title{
+    opacity: 0.8;
+    color: #fff;
+}
 @media screen and (max-width: 1100px) {
-    #canvas container{
-        width:85%;
+    #canvas{
+        flex-direction: column;
     }
-  }
+    #canvas container,#canvas container.address{
+        width:100%;
+    }
+}
