@@ -5,8 +5,16 @@
 
 <container>
     <?php for($i=0;$i<5;$i++){ ?>
-        <div></div>
+        <div class="canvas-link"></div>
     <?php } ?>
 </container>
+<container class="address">
+    <div class="canvas-title">
+        Turner Recording Company<br>
+        P.O. Box 3301<br>
+        Los Angelas, CA
+    </div>
+    <div class="guitarimg"></div>
+</container>  
  
 
